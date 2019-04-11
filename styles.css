@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+/* TEXT */
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h2 {
+  margin: .5rem 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.fa-circle {
+  color: #afafaf;
+}
+
+/* LAYOUT */
+header {
+  width: 90%;
+  margin: .5rem auto 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 77px;
+  padding-left: 37px;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto 4rem;
+}
+
+section {
+  padding: .75rem;
+  padding-top: 1px;
+}
+
+.location {
+  background-color: #e5e5e5;
+  border-radius: 1rem;
+}
+
+.location+section {
+  padding-top: 1rem;
+}
+
+.project {
+  background-color: #e5e5e5;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h2, .title i {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #afafaf;
+}
+
+.task {
+  border-radius: .5rem;
+  background-color: pink;
+  margin: .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task p {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: .75rem 0;
+}
+
+.task i {
+  color: white;
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+
+footer {
+  font-size: 2em;
+  padding: 1.25rem 0 .5rem 0;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer i {
+  margin: 0 .75rem;
+  color: #afafaf;
+}
+
+/* PROJECTS */
+.life {
+  background-color: #00cfff;
+}
+
+.class {
+  background-color: #f93e97;
+}
+
+.job {
+  background-color: #00ffda;
+}
+
+.intern {
+  background-color: #8841f7;
+}
