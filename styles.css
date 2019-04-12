@@ -12,8 +12,10 @@ body {
 /* TEXT */
 h1 {
   margin: 0;
-  font-size: 1.5rem;
+  /* margin-right: auto; */
+  font-size: 1rem;
   font-weight: normal;
+  /* min-width: 88px; */
 }
 
 h2 {
@@ -24,6 +26,7 @@ h2 {
 
 .fa-circle {
   color: #afafaf;
+  font-size: .75rem;
 }
 
 /* LAYOUT */
@@ -31,13 +34,27 @@ header {
   width: 90%;
   margin: .5rem auto 1rem auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  flex: 1;
+  padding-right: auto;
+}
+
+header div {
+  flex: 1;
+  /* padding-left: auto; */
 }
 
 header img {
-  width: 77px;
-  padding-left: 37px;
+  width: 30%;
+  margin-left: auto;
+  display: block;
 }
 
 main {
