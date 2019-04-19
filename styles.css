@@ -41,7 +41,8 @@ i {
 /* LAYOUT */
 header {
   width: 90%;
-  margin: .5rem auto 1rem auto;
+  margin: auto;
+  padding: .5rem 0 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +104,35 @@ footer i {
   align-items: center;
 }
 
-.week {}
+.week {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 0 .25rem;
+}
+
+.week h3 {
+  margin: .5rem;
+}
+
+.calendar .greyBox {
+  border-radius: .5rem;
+}
+
+.days {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+.days>div {
+  display: flex;
+  text-align: left;
+}
+
+.days>div>div {
+  flex: 1;
+}
 
 /* TASK */
 .first {
