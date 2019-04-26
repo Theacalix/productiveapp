@@ -129,16 +129,71 @@ footer i {
   flex: 1;
   display: flex;
   flex-flow: column;
+  /* margin: 0 10px; */
+  text-align: center;
 }
 
 .days>div {
   flex: 1;
   display: flex;
-  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.days>div:last-child {
+  border: none;
+}
+
+.old {
+  color: #e5e5e5;
 }
 
 .days>div>div {
   flex: 1;
+  border-right: 1px solid #e5e5e5;
+}
+
+.days>div>div:last-child {
+  border: none;
+}
+
+.days p {
+  margin: 0;
+  text-align: right;
+}
+
+.days h4 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: .8rem;
+}
+
+.days h4 i {
+  font-size: .4rem;
+  margin-left: 2px;
+}
+
+.days .old h4 {
+  color: #afafaf;
+}
+
+.calendar .life {
+  color: #00cfff;
+  background-color: transparent;
+}
+
+.calendar .class {
+  color: #f93e97;
+  background-color: transparent;
+}
+
+.calendar .job {
+  color: #00ffda;
+  background-color: transparent;
+}
+
+.calendar .intern {
+  color: #8841f7;
+  background-color: transparent;
 }
 
 /* TASK */
